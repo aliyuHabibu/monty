@@ -24,6 +24,7 @@ void (*sk(char *s, unsigned int l))(stack_t **stack, unsigned int line_number)
 		{"mul", mul_op},
 		{"mod", mod_op},
 		{"rotl", rotl_op},
+		{"rotr", rotr_op},
 		{NULL, NULL}
 	};
 
